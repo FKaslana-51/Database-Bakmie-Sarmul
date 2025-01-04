@@ -9,7 +9,7 @@ CREATE TABLE `barang` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 ```
 #
-![alt text](/Pic/1.jpg)
+![alt text](/Pic/1.png)
 
 ### 2. Membuat Table Karyawan ('karyawan')
 ```sql
@@ -20,7 +20,7 @@ CREATE TABLE `karyawan` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 ```
 #
-![alt text](/Pic/2.jpg)
+![alt text](/Pic/2.png)
 
 ### 3. Membuat Table Supplier ('supplier')
 ```sql
@@ -31,7 +31,7 @@ CREATE TABLE `supplier` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 ```
 #
-![alt text](/Pic/3.jpg)
+![alt text](/Pic/3.png)
 
 ### 4. Membuat Table Relasi Restocking ('restocking')
 ```sql
@@ -48,7 +48,7 @@ CREATE TABLE `restocking` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 ```
 #
-![alt text](/Pic/4.jpg)
+![alt text](/Pic/4.png)
 
 ### 5. Membuat View ('view_restock')
 ```sql
@@ -74,7 +74,7 @@ JOIN
     Barang B ON R.ID_BARANG = B.ID_BARANG;
 ```
 #
-![alt text](/Pic/5.jpg)
+![alt text](/Pic/5.png)
 
 ### 6. Input Data pada Table Barang
 ```sql
@@ -101,9 +101,9 @@ INSERT INTO `barang` (`NAMA_BARANG`, `STOK_KILOAN`, `HARGA_KILOAN`) VALUES
 ('Gas Elpigi', '6', 6000);
 ```
 #
-![alt text](/Pic/6.jpg)
+![alt text](/Pic/6.png)
 #
-![alt text](/Pic/7.jpg)
+![alt text](/Pic/7.png)
 
 ### 7. Input Data pada Table Karyawan
 ```sql
@@ -130,7 +130,7 @@ INSERT INTO `karyawan` (`NAMA_KARYAWAN`, `POSISI_KARYAWAN`) VALUES
 ('Rehan', 'Staf');
 ```
 #
-![alt text](/Pic/8.jpg)
+![alt text](/Pic/8.png)
 #
 ![alt text](/Pic/9.png)
 
@@ -161,7 +161,7 @@ INSERT INTO `supplier` (`NAMA_SUPPLIER`, `KONTAK_SUPPLIER`) VALUES
 #
 ![alt text](/Pic/10.png)
 #
-![alt text](/Pic/11.jpg)
+![alt text](/Pic/11.png)
 
 ### 9. Input Data pada Table Relasi Restocking
 ```sql
@@ -188,11 +188,11 @@ INSERT INTO `restocking` (`ID_SUPPLIER`, `ID_BARANG`, `JUMLAH_BARANG`, `ID_KARYA
 ('20', '20', '2', '20');
 ```
 #
-![alt text](/Pic/12.jpg)
+![alt text](/Pic/12.png)
 #
-![alt text](/Pic/13.jpg)
+![alt text](/Pic/13.png)
 
 ### 10. Tampilan pada view_restock
 #
-![alt text](/Pic/14.jpg)
+![alt text](/Pic/14.png)
 
